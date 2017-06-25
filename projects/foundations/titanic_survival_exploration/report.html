@@ -13085,7 +13085,9 @@ XpKkivv/CXeJMwe27pEAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> Observations:</strong> Males did not fare as well as females during the Titanic disaster, however young males under the age of 10 fared much better than any other age group.</p>
+<blockquote><p><strong> Observations:</strong> Males did not fare as well as females during the Titanic disaster, however young males under the age of 10 fared much better than any other age group.  Applying the additional filter of males under the age of 10 may increase the accuracy of the previous model.</p>
+</blockquote>
+<hr>
 
 </div>
 </div>
@@ -13440,7 +13442,8 @@ zHyxfDzlXcB+5TO3JfVTnkOX1J6bImILimdrn2Myl/o/W+iSJFWA59AlSaoAE7okSRVgQpckqQJM
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> Observations:</strong> While most male passengers perished on the titanic, those under 40 and in 1st class had a much greater chance of survival than eldery and those in the 2nd and 3rd class.</p>
+<blockquote><p><strong> Observations:</strong> While most male passengers perished on the titanic, those under 40 and in 1st class had a much greater chance of survival than eldery and those in the 2nd and 3rd class.  Adding filter <code>["Sex == 'male'", "Pclass == 1"]</code> is likely to increase the model accuracy.</p>
+</blockquote>
 
 </div>
 </div>
@@ -13686,7 +13689,8 @@ CjChS5JUASZ0SZIq4P8DMOXyL6ktUg0AAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> Observations:</strong> A majority of the women survived the Titanic; however the elderly (age &gt;40, <a href="http://u.demog.berkeley.edu/~andrew/1918/figure2.html">avg life expectancy of 53yrs</a>) 3rd class passengers did not fair as well as their cohorts.</p>
+<blockquote><p><strong> Observations:</strong> A majority of the women survived the Titanic; however the elderly (age &gt;40, <a href="http://u.demog.berkeley.edu/~andrew/1918/figure2.html">avg life expectancy of 53yrs</a>) 3rd class passengers did not fair as well as their cohorts.  To increase the performance of model as it relates to predicating wither a female passenger survived or not will add the additional filter <code>["Sex == 'female'", "Pclass == 3"]</code>.</p>
+</blockquote>
 <hr>
 
 </div>
@@ -13799,6 +13803,7 @@ Make sure to keep track of the various features and conditions you tried before 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer</strong>: <em>Predictions have an accuracy of 80.25%..</em></p>
+<hr>
 
 </div>
 </div>
